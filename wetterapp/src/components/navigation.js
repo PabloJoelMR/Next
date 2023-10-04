@@ -6,14 +6,17 @@ export default function Navigation() {
         <nav style={ {
             marginTop: "10px",
             display: "flex",
-            gap: "1rem",
+            gap: "25px",
+            borderRadius:"5px",
             backgroundColor: "lightgrey",
-            padding: "1rem"
+            padding: "15px",
+            paddingLeft: "25px",
+            paddingRight: "25px"
+            
+            
         }}>
           <Link className="Link" href='/'> Home</Link>
-          <Link className="Link" href='register'> Register</Link>
-          <Link className="Link" href='login'> Login</Link>
-          <Link className="Link" href='todos'> Todos</Link>
+          <Link className="Link" href='/wetter'> Wetter</Link>
         </nav>
     )
 }
